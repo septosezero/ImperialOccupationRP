@@ -171,44 +171,44 @@ MAYOR_Events["event_recycle"] = {
 
 MAYOR_Events["event_mayorparade"] = {
 	Name = "Parade Prediciment",
-	Desc = "Due to the lack of events in your city, your advisory staff has recommended you run an event. In this case, it's a parade. The parade is expected to cost a mere 150 dollars, but the choice rests on you.",
+	Desc = "Boredom is the Galaxy's worst enemy. Your publicity advisors suggest that you carry out a parade of your choosing, in order to help stimulate the economy and the populace.",
 	Choices = {
 		{
-			Name = "Do the parade.",
-			Price = 150,
-			EcoReward = 10,
+			Name = "Do an extravagant Parade.",
+			Price = 1000,
+			EcoReward = 15,
 			RewardText = "The parade was a huge success, tons of people arrived excited. Citizens are buying merchandise from the after parade shops, your economy is gonna be booming!",
 			Reward = true,
 		},
 		{
-			Name = "Don't throw the parade.",
+			Name = "Hold a show of force.",
 			Reward = false,
 			EcoLose = 4,
-			FailText = "No parade, no reward. It's that simple. Even worse, citizens are starting to dislike you due to how lazy you have been.",
+			FailText = "No parade, no reward. It's that simple. Even worse, citizens are starting to discuss how much oppression they are willing to withstand from the Empire.",
 		},
 	},
 }
 
 MAYOR_Events["event_speech"] = {
 	Name = "Public Speech",
-	Desc = "Your advisors are worried that the citizens are unsatisfied, they want you to give a speech regarding the conditions of the city. Citizens have been wondering about the economy and how city affairs are going. If you do not choose to organize the speech, then citizens are bound to become angry. This will hurt the economy.",
+	Desc = "The Citizens of Byss have been growing restless, due to their Emperor's long stay away from the planet. Your advisors strongly suggest that you organize a speech, to bring out the citizens more zealous side, and appese them in the process.",
 	Choices = {
 		{
 			Name = "Organize a speech.",
 			Reward = true,
 			Price = 100,
 			EcoReward = 8,
-			RewardText = "Citizens respected what you had to say, and the support for the city has increased.",
+			RewardText = "Your actions have renewed the fervor of Byss, and a number flock to recruiting stations.",
 		},
 		{	Name = "Do not give a speech.",
 			EcoLose = 5,
 			Reward = false,
-			FailText = "You refused to give a speech to your community. Your citizens are angry at you, and you better watch your back before anyone gets any good ideas.",
+			FailText = "You refused to give a speech to your beloved citizens. The citizens have grown angry, and you'd better watch your next steps with them carefully.",
 
 		},
 	},
 }
- 
+--------------------------------------------------------------- IN WORK -------------------------------------------------------
 MAYOR_Events["event_citylights"] = {
 	Name = "City Power Consumption",
 	Desc = "Your advisory council has noticed that the lights in your city consume an excess of power. Your advisory council and the national power grid want to help you get rid of these high consumption bulbs and replace them with green energy efficient bulbs!",
