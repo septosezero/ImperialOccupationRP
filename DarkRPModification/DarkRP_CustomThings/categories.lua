@@ -30,7 +30,7 @@ DarkRP.createCategory{
     name = "Galactic Citizens",
     categorises = "jobs",
     startExpanded = false,
-    color = Color(227, 168, 25, 255),
+    color = Color(19, 31, 94, 255),
     sortOrder = 1,
 }
 
@@ -38,7 +38,7 @@ DarkRP.createCategory{
 	name = "Imperial Army",
 	categorises = "jobs",
 	startExpanded = false,
-	color = Color(230, 180, 25, 255),
+	color = Color(0, 0, 0, 255),
 	sortOrder = 2,
 }
 
@@ -46,9 +46,9 @@ DarkRP.createCategory{
 	name = "Rebel Alliance",
 	categorises = "jobs",
 	startExpanded = false,
-	color = Color(230, 180, 25, 255),
+	color = Color(255, 0, 0, 255) ,
 	sortOrder = 3,
 }
 --[[ left to do:
-	colorise each specific category to match its corresponding component
+	add additional categories that correspond with server addons
 ]]--
