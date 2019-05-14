@@ -230,14 +230,14 @@ MAYOR_Events["event_citylights"] = {
 }
 
 MAYOR_Events["event_tourism"] = {
-	Name = "Boosting Tourism",
-	Desc = "The town is pretty nice, but nothing new and exciting has been built to attract more tourists. There are a couple things you should consider doing to stay attractive.",
+	Name = "Boosting Tourism on Bimmisaari",
+	Desc = "The planet of Bimm is pretty nice, but nothing new and exciting has been built to attract more tourists. There are a couple things you should consider doing to stay attractive.",
 	Choices = {
 		{
 			Name = "Build a park.",
 			Reward = true,
 			Price = 300,
-			RewardText = "People love your park and want to come by every weekend to have fun and relax. Even in the winter time, people still love to walk through what they call 'A Winter Wonderland!' You have received $450 dollars in donations for the city.",
+			RewardText = "People love your park and want to come by every weekend to have fun and relax. Even in the winter time, people still love to walk through what they call 'A Winter Wonderland!' Your actions have improved the economy.",
 			EcoReward = 15,
 			MoneyReward = 450,
 		},
