@@ -210,21 +210,22 @@ MAYOR_Events["event_speech"] = {
 }
 --------------------------------------------------------------- IN WORK -------------------------------------------------------
 MAYOR_Events["event_citylights"] = {
-	Name = "City Power Consumption",
-	Desc = "Your advisory council has noticed that the lights in your city consume an excess of power. Your advisory council and the national power grid want to help you get rid of these high consumption bulbs and replace them with green energy efficient bulbs!",
+	Name = "Planetary Power Consumption",
+	Desc = "The planet of Korriban has increased it's power consumption exponentially. You will need to find an alternative, and quickly. Otherwise, the entire planet could send the Empire's coffers into the black.",
 	Choices = {
 		{
-			Name = "Back the great cause.",
+			Name = "Convert the powerplants of Korriban over to new hypermatter based reactors, allowing for energy efficiency.",
 			Reward = true,
 			Price = 400,
 			EcoReward = 6,
-			RewardText = "The latest electric bill states that power consumption is now at an all time low, meaning more money can go towards the community!",
+			RewardText = "The new reactor is working excellently! The planet's power is so efficient, they are able to cut costs and send some credits back toward the rest of the galaxy.",
 		},
 		{
-			Name = "I'm happy with what I have.",
+			Name = "A junker on Tatooine offers some cheap alternatives.",
 			Reward = false,
+			Price = 250,
 			EcoLose = 2,
-			FailText = "Unfourtunatly, because you didnt replace the bulbs, power consumption kept at the same rate, causing more money to be spent on it.",
+			FailText = "The junker clearly sold you defective parts. The planet was able to get their reactor back online, but some minor damage had to be repaired. Your economy suffers as a result.",
 		},
 	},
 }
@@ -251,29 +252,29 @@ MAYOR_Events["event_tourism"] = {
 }
 
 MAYOR_Events["event_draught"] = {
-   Name = "Serious Drought",
-   Desc = "Due to a recent heatwave, the soil is so dry that no crops will grow. If this dry soil problem isn't solved, the local farmers will no longer be able to bring in money by selling their products.",
+   Name = "Draught on Tatooine",
+   Desc = "Due to extreme temperatures, the Planet of Tatooine is experiencing a record breaking draught. We need a solution, and fast. Even the moisture farmers can't seem to pull enough water together to water the crops.",
    Choices = {
 	   {
-		   Name = "Install huge pumps.",
+		   Name = "Send a detachment of engineers to boost the hydropumps.",
 		   Reward = true,
 		   Price = 300,
 		   EcoReward = 7,
-		   RewardText = "You have chosen to install huge pumps that will pump water out of the sea, get all the salt out and then pump the clean water in to the fields. The local farmers greatly appreciate your work.",
+		   RewardText = "Your decision to boost the current hydropumps results in enough water to last through this heatwave. Your economy boosts, and the people of Tatooine trust you more.",
 	   },
 	   
 	   {
 			Name = "Wait for natural rain.",
 			Reward = true,
 			EcoReward = 4,
-			RewardText = "You have chosen to do nothing. Luckily, it rained a few days after this decision. The crops are saved.",
+			RewardText = "Even though you did not boost the pumps, natural rain comes in a few days and not a moment too soon. Your economy boosts as a result of you decision to save money.",
 	   },
    },
 }
  
 MAYOR_Events["event_trafficaccident"] = {
-   Name = "Traffic Accident",
-   Desc = "There's been a large traffic accident just outside of town. Some activists are calling for strict new safety regulations, which would cost precious funds to implement.",
+   Name = "Pirate Blockade",
+   Desc = "There's been a report of pirate raiders blockading a planet at random, which has caused some activists to push for more garrison troops and naval support, which will cost precious funds to comply.",
    Choices = {
 	    {
 			Name = "Initiate new safety regulations.",
