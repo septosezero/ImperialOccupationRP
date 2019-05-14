@@ -29,8 +29,8 @@ ENT.Type = "anim"
 ENT.Base = "base_gmodentity"
 ENT.Spawnable = false
 
-ENT.PrintName = "Weapon"
-ENT.Author = "Yogosh"
+ENT.PrintName = "Thermal Detonator"
+ENT.Author = "SeptoseZero"
 ENT.Category = "Billions"
 
 function ENT:SetupDataTables()
