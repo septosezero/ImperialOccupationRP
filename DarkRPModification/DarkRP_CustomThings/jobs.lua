@@ -48,48 +48,7 @@ TEAM_ADMINONDUTY = DarkRP.createJob("Admin On Duty", {
 ]]--
 TEAM_GALCIT = DarkRP.createJob("Galactic Citizen", {
     color = Color(19, 31, 94, 255),
-    model = {
-    	"models/hcn/starwars/bf/human/human_male.mdl",
-		"models/hcn/starwars/bf/human/human_male_2.mdl",
-		"models/hcn/starwars/bf/human/human_male_3.mdl",
-		"models/hcn/starwars/bf/human/human_male_4.mdl",
-		"models/hcn/starwars/bf/human/human_male_5.mdl",	
-    	"models/hcn/starwars/bf/abednedo/abednedo.mdl",
-		"models/hcn/starwars/bf/abednedo/abednedo_2.mdl",
-		"models/hcn/starwars/bf/abednedo/abednedo_3.mdl",
-		"models/hcn/starwars/bf/abednedo/abednedo_4.mdl",
-		"models/hcn/starwars/bf/abednedo/abednedo_5.mdl",
-		"models/hcn/starwars/bf/aqualish/aqualish.mdl",
-		"models/hcn/starwars/bf/aqualish/aqualish_2.mdl",
-		"models/hcn/starwars/bf/aqualish/aqualish_3.mdl",
-		"models/hcn/starwars/bf/aqualish/aqualish_4.mdl",
-		"models/hcn/starwars/bf/aqualish/aqualish_5.mdl",
-		"models/hcn/starwars/bf/ishitib/ishitib.mdl",
-		"models/hcn/starwars/bf/ishitib/ishitib_2.mdl",
-		"models/hcn/starwars/bf/ishitib/ishitib_3.mdl",
-		"models/hcn/starwars/bf/ishitib/ishitib_4.mdl",
-		"models/hcn/starwars/bf/ishitib/ishitib_5.mdl",
-		"models/hcn/starwars/bf/quarren/quarren.mdl",
-		"models/hcn/starwars/bf/quarren/quarren_2.mdl",
-		"models/hcn/starwars/bf/quarren/quarren_3.mdl",
-		"models/hcn/starwars/bf/quarren/quarren_4.mdl",
-		"models/hcn/starwars/bf/quarren/quarren_5.mdl",
-		"models/hcn/starwars/bf/rodian/rodian.mdl",
-		"models/hcn/starwars/bf/rodian/rodian_2.mdl",
-		"models/hcn/starwars/bf/rodian/rodian_3.mdl",
-		"models/hcn/starwars/bf/rodian/rodian_4.mdl",
-		"models/hcn/starwars/bf/rodian/rodian_5.mdl",
-		"models/hcn/starwars/bf/sullustan/sullustan.mdl",
-		"models/hcn/starwars/bf/sullustan/sullustan_2.mdl",
-		"models/hcn/starwars/bf/sullustan/sullustan_3.mdl",
-		"models/hcn/starwars/bf/sullustan/sullustan_4.mdl",
-		"models/hcn/starwars/bf/sullustan/sullustan_5.mdl",
-		"models/hcn/starwars/bf/zabrak/zabrak.mdl",
-		"models/hcn/starwars/bf/zabrak/zabrak_2.mdl",
-		"models/hcn/starwars/bf/zabrak/zabrak_3.mdl",
-		"models/hcn/starwars/bf/zabrak/zabrak_4.mdl",
-		"models/hcn/starwars/bf/zabrak/zabrak_5.mdl"
-    },
+    model = {"models/hcn/starwars/bf/human/human_male.mdl", "models/hcn/starwars/bf/human/human_male_2.mdl", "models/hcn/starwars/bf/human/human_male_3.mdl", "models/hcn/starwars/bf/human/human_male_4.mdl", "models/hcn/starwars/bf/human/human_male_5.mdl", "models/hcn/starwars/bf/abednedo/abednedo.mdl", "models/hcn/starwars/bf/abednedo/abednedo_2.mdl", "models/hcn/starwars/bf/abednedo/abednedo_3.mdl", "models/hcn/starwars/bf/abednedo/abednedo_4.mdl", "models/hcn/starwars/bf/abednedo/abednedo_5.mdl", "models/hcn/starwars/bf/aqualish/aqualish.mdl", "models/hcn/starwars/bf/aqualish/aqualish_2.mdl", "models/hcn/starwars/bf/aqualish/aqualish_3.mdl", "models/hcn/starwars/bf/aqualish/aqualish_4.mdl", "models/hcn/starwars/bf/aqualish/aqualish_5.mdl", "models/hcn/starwars/bf/ishitib/ishitib.mdl", "models/hcn/starwars/bf/ishitib/ishitib_2.mdl", "models/hcn/starwars/bf/ishitib/ishitib_3.mdl", "models/hcn/starwars/bf/ishitib/ishitib_4.mdl", "models/hcn/starwars/bf/ishitib/ishitib_5.mdl", "models/hcn/starwars/bf/quarren/quarren.mdl", "models/hcn/starwars/bf/quarren/quarren_2.mdl", "models/hcn/starwars/bf/quarren/quarren_3.mdl", "models/hcn/starwars/bf/quarren/quarren_4.mdl", "models/hcn/starwars/bf/quarren/quarren_5.mdl", "models/hcn/starwars/bf/rodian/rodian.mdl", "models/hcn/starwars/bf/rodian/rodian_2.mdl", "models/hcn/starwars/bf/rodian/rodian_3.mdl", "models/hcn/starwars/bf/rodian/rodian_4.mdl", "models/hcn/starwars/bf/rodian/rodian_5.mdl", "models/hcn/starwars/bf/sullustan/sullustan.mdl", "models/hcn/starwars/bf/sullustan/sullustan_2.mdl", "models/hcn/starwars/bf/sullustan/sullustan_3.mdl", "models/hcn/starwars/bf/sullustan/sullustan_4.mdl", "models/hcn/starwars/bf/sullustan/sullustan_5.mdl", "models/hcn/starwars/bf/zabrak/zabrak.mdl", "models/hcn/starwars/bf/zabrak/zabrak_2.mdl", "models/hcn/starwars/bf/zabrak/zabrak_3.mdl", "models/hcn/starwars/bf/zabrak/zabrak_4.mdl", "models/hcn/starwars/bf/zabrak/zabrak_5.mdl"},
     description = [[This is a Citizen of the Galaxy. Earn credits legally, or illegally, you decide!]],
     weapons = {"climb_swep2", "keys", "pickaxe"},
     command = "GALCIT",
@@ -109,10 +68,7 @@ TEAM_GALCIT = DarkRP.createJob("Galactic Citizen", {
 
 TEAM_DOCTOR = DarkRP.createJob("Doctor", {
     color = Color(40, 158, 158, 255),
-    model = {
-		"models/sirgibs/ragdolls/bms_citizens/male_medic_player.mdl",
-		"models/sirgibs/ragdolls/bms_citizens/female_medic_player.mdl"
-    },
+    model = {"models/sirgibs/ragdolls/bms_citizens/male_medic_player.mdl", "models/sirgibs/ragdolls/bms_citizens/female_medic_player.mdl"},
     description = [[This is a Doctor, assigned with aiding the injured of the Galaxy.]],
     weapons = {"weapon_defibrillator", "weapon_bactainjector", "weapon_bactanade"},
     command = "DOCTOR",
@@ -137,10 +93,7 @@ TEAM_DOCTOR = DarkRP.createJob("Doctor", {
 ]]
 TEAM_IMPARMYRECRUIT = DarkRP.createJob("Imperial Stormtrooper Recruit", {
 	color = Color(0, 0, 0, 255),
-	model = {
-	    "models/vaspyr/playermodels/enlisted_male_st/enlisted_male_st.mdl", 
-		"models/vaspyr/playermodels/enlisted_female_st/enlisted_female_st.mdl"
-	},
+	model = {"models/vaspyr/playermodels/enlisted_male_st/enlisted_male_st.mdl", "models/vaspyr/playermodels/enlisted_female_st/enlisted_female_st.mdl"},
 	description = [[A Recruit in the Imperial Army.]],
 	weapons = {"bf2017_dl44", "arrest_stick", "door_ram", "unarrest_stick", "stunstick", "weaponchecker"},
 	command = "IMPARMYRECRUIT",
@@ -160,10 +113,7 @@ TEAM_IMPARMYRECRUIT = DarkRP.createJob("Imperial Stormtrooper Recruit", {
 
 TEAM_IMPARMYSGT = DarkRP.createJob("Imperial Stormtrooper Sergeant", {
 	color = Color(0, 0, 0, 255),
-	model = {
-		"models/vaspyr/playermodels/lieutenant_male_st/lieutenant_male_st.mdl", 
-		"models/vaspyr/playermodels/lieutenant_female_st/lieutenant_female_st.mdl"
-	},
+	model = {"models/vaspyr/playermodels/lieutenant_male_st/lieutenant_male_st.mdl", "models/vaspyr/playermodels/lieutenant_female_st/lieutenant_female_st.mdl"},
 	description = [[A Sergeant in the Imperial Army.]],
 	weapons = {"bf2017_dl44", "arrest_stick", "door_ram", "unarrest_stick", "stunstick", "weaponchecker"},
 	command = "IMPARMYSGT",
@@ -183,12 +133,7 @@ TEAM_IMPARMYSGT = DarkRP.createJob("Imperial Stormtrooper Sergeant", {
 
 TEAM_IMPARMYOFF = DarkRP.createJob("Imperial Army Officer", {
 	color = Color(0, 0, 0, 255),
-	model = {
-		"models/vaspyr/playermodels/officer_male_st/officer_male_st.mdl", 
-		"models/vaspyr/playermodels/officer_female_st/officer_female_st.mdl", 
-		"models/vaspyr/playermodels/major_male_st/major_male_st.mdl", 
-		"models/vaspyr/playermodels/major_female_st/major_female_st.mdl"
-	},
+	model = {"models/vaspyr/playermodels/officer_male_st/officer_male_st.mdl", "models/vaspyr/playermodels/officer_female_st/officer_female_st.mdl", "models/vaspyr/playermodels/major_male_st/major_male_st.mdl", "models/vaspyr/playermodels/major_female_st/major_female_st.mdl"},
 	description = [[An Officer in the Imperial Army.]],
 	weapons = {"bf2017_dl44", "arrest_stick", "door_ram", "unarrest_stick", "stunstick", "weaponchecker"},
 	command = "IMPARMYOFF",
@@ -231,12 +176,7 @@ TEAM_GALEMPEROR = DarkRP.createJob("Galactic Emperor", {
 
 TEAM_REBELSOL = DarkRP.createJob("Rebel Soldier", {
 	color = Color(255, 0, 0, 255),
-	model = {
-		"models/player/sgg/starwars/rebels/r_soldier_urban/male_01.mdl", 
-		"models/player/sgg/starwars/rebels/r_soldier_urban/male_02.mdl", 
-		"models/player/sgg/starwars/rebels/r_soldier_forest/male_01.mdl", 
-		"models/player/sgg/starwars/rebels/r_soldier_forest/male_02.mdl"
-	},
+	model = {"models/player/sgg/starwars/rebels/r_soldier_urban/male_01.mdl", "models/player/sgg/starwars/rebels/r_soldier_urban/male_02.mdl", "models/player/sgg/starwars/rebels/r_soldier_forest/male_01.mdl", "models/player/sgg/starwars/rebels/r_soldier_forest/male_02.mdl"},
 	description = [[A Soldier in the Rebel Alliance.]],
 	weapons = {"bf2017_defender", "lockpick"},
 	command = "REBELSOL",
@@ -256,17 +196,7 @@ TEAM_REBELSOL = DarkRP.createJob("Rebel Soldier", {
 
 TEAM_REBELSGT = DarkRP.createJob("Rebel Sergeant", {
 	color = Color(255, 0, 0, 255),
-	model = {
-		"models/player/sgg/starwars/rebels/r_trooper_captain/male_01.mdl",
-		"models/player/sgg/starwars/rebels/r_trooper_captain/male_02.mdl",
-		"models/player/sgg/starwars/rebels/r_trooper_captain/male_03.mdl",
-		"models/player/sgg/starwars/rebels/r_trooper_captain/male_04.mdl",
-		"models/player/sgg/starwars/rebels/r_trooper_captain/male_05.mdl",
-		"models/player/sgg/starwars/rebels/r_trooper_captain/male_06.mdl",
-		"models/player/sgg/starwars/rebels/r_trooper_captain/male_07.mdl",
-		"models/player/sgg/starwars/rebels/r_trooper_captain/male_08.mdl",
-		"models/player/sgg/starwars/rebels/r_trooper_captain/male_09.mdl"
-	},
+	model = {"models/player/sgg/starwars/rebels/r_trooper_captain/male_01.mdl", "models/player/sgg/starwars/rebels/r_trooper_captain/male_02.mdl", "models/player/sgg/starwars/rebels/r_trooper_captain/male_03.mdl", "models/player/sgg/starwars/rebels/r_trooper_captain/male_04.mdl", "models/player/sgg/starwars/rebels/r_trooper_captain/male_05.mdl", "models/player/sgg/starwars/rebels/r_trooper_captain/male_06.mdl", "models/player/sgg/starwars/rebels/r_trooper_captain/male_07.mdl", "models/player/sgg/starwars/rebels/r_trooper_captain/male_08.mdl", "models/player/sgg/starwars/rebels/r_trooper_captain/male_09.mdl"},
 	description = [[A Sergeant of the Rebel Alliance.]],
 	weapons = {"bf2017_defender", "lockpick"},
 	command = "REBELSGT",
